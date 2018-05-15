@@ -1,7 +1,7 @@
 {
   "name": "Dies und Das",
   "short_name": "hub.ax9.eu",
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#fff",
   "description": "hub.ax9.eu Hubzilla Node",
