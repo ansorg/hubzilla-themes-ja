@@ -1,0 +1,13 @@
+{
+  "name": "Dies und Das",
+  "short_name": "hub.ax9.eu",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "hub.ax9.eu Hubzilla Node",
+  "icons": [{
+    "src": "images/touch/homescreen48.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }]
+}
