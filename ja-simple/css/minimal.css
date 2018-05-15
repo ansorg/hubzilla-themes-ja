@@ -91,8 +91,16 @@ footer {
     color: white;
     display: flex;
     position: relative;
-    flex: 0 1 32px;
+    flex: 0 1 auto;
+    padding: 0.25rem 1rem;
 }
+
+footer > * {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
 
 .contextual-help-content {
     display: none;
