@@ -6,8 +6,12 @@
   "background_color": "#fff",
   "description": "hub.ax9.eu Hubzilla Node",
   "icons": [{
-    "src": "images/touch/homescreen48.png",
+    "src": "/images/hubzilla_logo_1.png",
     "sizes": "48x48",
+    "type": "image/png"
+  },{
+    "src": "/images/hubzilla_logo_1.png",
+    "sizes": "256x256",
     "type": "image/png"
   }]
 }

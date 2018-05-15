@@ -1,7 +1,7 @@
 <!DOCTYPE html >
 <html prefix="og: http://ogp.me/ns#">
 <head>
-  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="manifest" href="/view/theme/ja-simple/manifest.webmanifest">
   <title><?php if(x($page,'title')) echo $page['title'] ?></title>
   <script>var baseurl="<?php echo z_root() ?>";</script>
   <?php if(x($page,'htmlhead')) echo $page['htmlhead'] ?>
