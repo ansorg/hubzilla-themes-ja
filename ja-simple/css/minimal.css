@@ -74,10 +74,23 @@ main {
     flex: 1 1 auto;
 }
 
+.nav.nav-tabs.nav-fill {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-tabs .nav-link {
+    padding: 0.5rem;
+    display: inline-flex;
+}
+
 footer {
     background-color: #9e9b9b;
     color: white;
     display: flex;
+    position: relative;
     flex: 0 1 32px;
 }
 
