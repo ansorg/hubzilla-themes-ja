@@ -49,6 +49,7 @@ aside {
 
 .widget h3 {
     padding: 0.5rem 1rem;
+    background-color: #fff;
 }
 
 .btn, .form-control, .nav-pills .nav-link, .nav-tabs .nav-link,
@@ -121,8 +122,8 @@ a:hover, .fakelink:hover {
     border: none;
 }
 
-#contact-block {
-    margin: auto -1rem;
+#contact-block h3 {
+    margin: auto -0rem;
 }
 
 .cloud-container {
@@ -132,4 +133,13 @@ a:hover, .fakelink:hover {
 }
 
 .cloud-icon.tiles {
+}
+
+@media screen and (max-width: 992px) {
+
+
+    main {
+        left: -258px;
+        width: calc(100% + 258px);
+    }
 }
