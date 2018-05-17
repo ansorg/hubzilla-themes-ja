@@ -11,7 +11,7 @@
  *
  */
 
-function simple_init(&$App) {
+function jaSimple_init(&$App) {
 
     App::$theme_info['extends'] = 'redbasic';
 
