@@ -69,8 +69,7 @@ aside {
 .photo, .contact-block-img,
 #profile-jot-wrapper,
 #avatar,
-.wall-item-photo
-{
+.wall-item-photo {
     border-radius: 0px;
 }
 
@@ -79,6 +78,7 @@ aside {
 .btn {
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
 }
+
 .btn-group > .btn {
     box-shadow: none;
 }
@@ -98,9 +98,10 @@ aside {
     border-color: #8b0000;
 }
 
-.form-group.checkbox > label{
+.form-group.checkbox > label {
     cursor: pointer;
 }
+
 .form-group.checkbox > div > input:checked + label .onoffswitch-switch {
     background-color: #3A87AD;
 }
@@ -117,12 +118,14 @@ a, .fakelink {
     /*normal link */
     color: #3A87AD;
 }
-a:hover{
+
+a:hover {
     /*normal link */
     color: #31708f;
 }
+
 .section-content-info-wrapper a {
-    color:#FF9696
+    color: #FF9696
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -151,9 +154,12 @@ a:hover{
 
 @media screen and (max-width: 992px) {
 
-
     main {
         left: -258px;
         width: calc(100% + 258px);
+    }
+
+    main.region_1-on {
+        left: 0;
     }
 }
