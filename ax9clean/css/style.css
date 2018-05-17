@@ -37,6 +37,17 @@ aside {
     color: white;
 }
 
+.wall-item-content-wrapper,
+.wall-item-head-new {
+    border-color: #3A87AD;
+    border-radius: 0px;
+    background-color: #fefefe;
+}
+
+.rounded-top {
+    border-radius: 0px !important;
+}
+
 .widget {
     padding: 0px;
     border-radius: 0px;
@@ -105,11 +116,13 @@ a, .fakelink {
     /*normal link */
     color: #3A87AD;
 }
-a:hover, .fakelink:hover {
+a:hover{
     /*normal link */
     color: #31708f;
 }
-
+.section-content-info-wrapper a {
+    color:#FF9696
+}
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     /*inverted link*/
