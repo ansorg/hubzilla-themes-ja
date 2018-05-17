@@ -1,0 +1,135 @@
+/**
+ * ax9clean
+ *
+ * Derived from Hubzilla main theme
+ * Originally by Fabio Comuni <fabrix.xm@gmail.com>
+ */
+
+/* generals */
+html {
+    font-size: $ font_size;
+}
+
+body {
+    background-color: #eee;
+}
+
+aside {
+    width: 258px;
+    min-width: 258px;
+    max-width: 258px;
+}
+
+/* remove borders, change colors */
+
+.generic-content-wrapper {
+    border: none;
+}
+
+.section-title-wrapper,
+.section-subtitle-wrapper,
+.section-content-info-wrapper {
+    border-bottom-color: #3A87AD;
+}
+
+.section-content-info-wrapper {
+    background: #3A87AD;
+    color: white;
+}
+
+.widget {
+    padding: 0px;
+    border-radius: 0px;
+    border: none;
+    background-color: #eee;
+    /*
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    */
+}
+
+.widget h3 {
+    padding: 0.5rem 1rem;
+}
+
+.btn, .form-control, .nav-pills .nav-link, .nav-tabs .nav-link,
+.generic-content-wrapper,
+.vcard,
+.photo, .contact-block-img,
+#profile-jot-wrapper,
+#avatar
+{
+    border-radius: 0px;
+}
+
+.generic-content-wrapper,
+#profile-jot-wrapper,
+.btn {
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+.btn-group > .btn {
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #3A87AD;
+    border-color: #3A87AD;
+}
+
+.btn-success {
+    background-color: mediumseagreen;
+    border-color: mediumseagreen;
+}
+
+.btn-danger {
+    background-color: #8b0000;
+    border-color: #8b0000;
+}
+
+.form-group.checkbox > label{
+    cursor: pointer;
+}
+.form-group.checkbox > div > input:checked + label .onoffswitch-switch {
+    background-color: #3A87AD;
+}
+
+.form-group.checkbox:hover > div label {
+    border-color: #3A87AD;
+}
+
+.form-group.checkbox:hover label {
+    color: #3A87AD;
+}
+
+a, .fakelink {
+    /*normal link */
+    color: #3A87AD;
+}
+a:hover, .fakelink:hover {
+    /*normal link */
+    color: #31708f;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    /*inverted link*/
+    background-color: #3A87AD;
+}
+
+.vcard {
+    padding: 0px;
+    background-color: inherit;
+    border: none;
+}
+
+#contact-block {
+    margin: auto -1rem;
+}
+
+.cloud-container {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #aaaaaa;
+}
+
+.cloud-icon.tiles {
+}
