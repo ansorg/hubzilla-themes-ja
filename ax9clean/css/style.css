@@ -68,7 +68,8 @@ aside {
 .vcard,
 .photo, .contact-block-img,
 #profile-jot-wrapper,
-#avatar
+#avatar,
+.wall-item-photo
 {
     border-radius: 0px;
 }
