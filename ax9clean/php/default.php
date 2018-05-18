@@ -29,8 +29,8 @@
 <footer>
     <?php if(x($page,'footer')) echo $page['footer']; ?>
     <div>
-        <a href="#">Impressum</a>
-        <a href="#">Datenschutzerklärung</a>
+        <a href="/page/the/impressum">Impressum</a>
+        <a href="/page/the/datenschutz">Datenschutzerklärung</a>
     </div>
 </footer>
 </body>

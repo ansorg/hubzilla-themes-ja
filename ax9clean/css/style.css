@@ -12,6 +12,36 @@ html {
 
 body {
     background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+body > * {
+    flex: 1 1 auto;
+    display: block;
+    position: relative;
+}
+
+main {
+    overflow: auto;
+}
+
+footer {
+    bottom: 0px;
+    text-align: center;
+    padding: 0.25rem;
+    background-color: #3A87AD;
+    color: white;
+}
+footer div {
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+footer a, footer a:hover, footer a:focus {
+    display: inline-flex;
+    color: white;
 }
 
 aside {
@@ -21,6 +51,9 @@ aside {
 }
 
 /* remove borders, change colors */
+body .bg-primary {
+    background-color: #3A87AD !important;
+}
 
 .generic-content-wrapper {
     border: none;
@@ -67,6 +100,7 @@ aside {
 .generic-content-wrapper,
 .vcard,
 .photo, .contact-block-img,
+#profile-photo-wrapper,
 #profile-jot-wrapper,
 #avatar,
 .wall-item-photo {
@@ -102,7 +136,8 @@ aside {
     cursor: pointer;
 }
 
-.form-group.checkbox > div > input:checked + label .onoffswitch-switch {
+.form-group.checkbox > div > input:checked + label .onoffswitch-switch,
+.dropdown-item.active {
     background-color: #3A87AD;
 }
 
@@ -114,7 +149,7 @@ aside {
     color: #3A87AD;
 }
 
-a, .fakelink {
+a, a:hover, a:focus, .fakelink, .fakelink:hover, .fakelink:focus {
     /*normal link */
     color: #3A87AD;
 }
