@@ -23,8 +23,16 @@ body > * {
     position: relative;
 }
 
+nav.fixed-top {
+    position: relative;
+}
 main {
     overflow: auto;
+    display: flex;
+}
+
+aside,section{
+    padding-top: 1rem;
 }
 
 footer {
@@ -48,6 +56,7 @@ aside {
     width: 258px;
     min-width: 258px;
     max-width: 258px;
+    display: block;
 }
 
 /* remove borders, change colors */
