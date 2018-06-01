@@ -30,7 +30,7 @@ nav.fixed-top {
     position: relative;
 }
 
-main {
+body > main {
     overflow: auto;
     display: flex;
 }
