@@ -17,7 +17,7 @@ body {
 
 body > main {
     height: auto;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 
@@ -54,7 +54,11 @@ aside {
 }
 
 #cover-photo {
-    margin-bottom: -4rem;
+    margin-bottom: -3rem;
+}
+
+.is_stuck {
+    top: 3rem !important;
 }
 
 /* remove borders, change colors */
