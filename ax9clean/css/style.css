@@ -12,35 +12,18 @@ html {
 
 body {
     background-color: #eee;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
 }
 
-body > header,
-body > nav,
-body > main,
-body > footer {
-    flex: 1 1 auto;
-    display: block;
-    position: relative;
-}
-
-nav.fixed-top {
-    position: relative;
-}
 
 body > main {
-    overflow: auto;
-    display: flex;
+    height: auto;
+    margin-top: 4rem;
 }
 
-main > * {
-    flex: 1 1 auto;
-}
 
 aside, section {
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 footer {
@@ -49,6 +32,9 @@ footer {
     padding: 0.25rem;
     background-color: #3A87AD;
     color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
 footer div {
@@ -65,7 +51,10 @@ aside {
     width: 258px;
     min-width: 258px;
     max-width: 258px;
-    display: block;
+}
+
+#cover-photo {
+    margin-bottom: -4rem;
 }
 
 /* remove borders, change colors */
